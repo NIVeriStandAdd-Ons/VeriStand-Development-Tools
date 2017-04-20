@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-06 12:43:10" Modified_Date="2017-04-17 00:11:51" Creator="Tanner Blair" Comments="" ID="176229ba2671c23126c59a35c09a4139">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-06 12:43:10" Modified_Date="2017-04-20 12:20:08" Creator="Tanner Blair" Comments="" ID="6e08f86e161f73b76618745f19bafc21">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_VeriStand_Development_Tools</Package_File_Name>
-    <Library_Version>1.0.0.5</Library_Version>
+    <Library_Version>1.0.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -17,10 +17,14 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>ni_lib_custom_device_xml_editor &gt;=1.0.0.6</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_veristand_advanced_system_definition_api &gt;=1.0.0.6</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_veristand_custom_device_import_and_export_tool &gt;=1.0.0.3</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_advanced_sysdef_api &gt;=1.0.0.2</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_compiled_html_menu_tool &gt;=1.0.0.4</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_custom_device_xml_editor &gt;=1.0.0.7</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_nivs_inline_async_api &gt;=1.0.0.29</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_veristand_custom_device_import_and_export_tool &gt;=1.0.0.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_veristand_error_api &gt;=1.0.0.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_tmpl_veristand_custom_device &gt;=1.0.0.20</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_tmpl_veristand_inline_async_custom_device &gt;=1.0.0.26</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -199,7 +203,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>.</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>0208B8C4660E4525C3121266E18C8237</GUID>
+      <GUID>4F610F0F3F34A2B70CE240E2E74AFAC3</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -220,7 +224,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>.</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>F1D04F2606A7D2C4F229532FD33155A8</GUID>
+      <GUID>2CA0A59612C0EA737EDCC1E8FFF2832B</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
